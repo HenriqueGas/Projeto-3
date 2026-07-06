@@ -239,7 +239,11 @@ Na aplicação final foi desenvolvido um sistema de controle para uma esteira tr
 O sentido de operação é indicado visualmente por dois LEDs controlados por PWM, cujo brilho acompanha a velocidade selecionada. Paralelamente, todas as informações relevantes são enviadas ao Monitor Serial, permitindo o acompanhamento em tempo real do funcionamento do sistema.
 
 ---
+## Circuito e Simulação
+<img width="907" height="636" alt="Image" src="https://github.com/user-attachments/assets/128ed911-603c-48e1-8699-bdfa473033e6" />
+<img width="587" height="316" alt="Image" src="https://github.com/user-attachments/assets/cf00e8cd-7ca0-4938-9181-a171664bd1cc" />
 
+---
 ## Referências
 
 Para a construção do projeto:
