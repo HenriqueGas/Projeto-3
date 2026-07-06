@@ -60,6 +60,10 @@ Implementar o controle independente das três cores de um LED RGB utilizando o p
   - Azul
 - Comunicação Serial exibindo os duty cycles utilizados
 
+## Circuito e Simulação
+<img width="537" height="483" alt="Image" src="https://github.com/user-attachments/assets/33f040a0-2788-43d5-b8ff-f2d4ba2a0860" />
+<img width="882" height="157" alt="Image" src="https://github.com/user-attachments/assets/059e0232-1bba-41bf-a6dd-0761df7fd088" />
+
 ---
 
 # Parte 2 — Controle de Servomotor
@@ -74,6 +78,10 @@ Controlar a posição de um servomotor utilizando um potenciômetro conectado ao
 - Conversão da leitura para ângulo
 - Controle do servo utilizando PWM
 - Atualização em tempo real
+
+## Circuito e Simulação
+<img width="796" height="415" alt="Image" src="https://github.com/user-attachments/assets/d463fe9a-ad86-4a06-b6fc-7ee03090b534" />
+<img width="528" height="187" alt="Image" src="https://github.com/user-attachments/assets/6431d2c7-7925-4cb2-ac18-d6f9f85be146" />
 
 ---
 
