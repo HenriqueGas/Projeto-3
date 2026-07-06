@@ -3,18 +3,14 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-//==============================
-// Configuração do Display OLED
-//==============================
+
+//configuração do Display
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-//==============================
-// Definição dos pinos
-//==============================
 
 const int POT_PIN = 35;
 const int BTN_PIN = 19;
@@ -22,19 +18,13 @@ const int BTN_PIN = 19;
 const int LED_HORARIO     = 25;
 const int LED_ANTIHORARIO = 26;
 
-//==============================
-// Variáveis globais
-//==============================
 
 volatile bool sentidoHorario = true;
 volatile unsigned long ultimaInterrupcao = 0;
 
 float velocidadePercentual = 0.0;
 
-//==================================================
-// Interrupção do botão (debounce de 250 ms)
-//==================================================
-
+// Interrupção do botão
 void IRAM_ATTR trataBotao() {
 
   unsigned long tempoAtual = millis();
@@ -45,9 +35,6 @@ void IRAM_ATTR trataBotao() {
   }
 }
 
-//==================================================
-// Setup
-//==================================================
 
 void setup() {
 
@@ -76,24 +63,15 @@ void setup() {
   Serial.println("Sistema iniciado.");
 }
 
-//==================================================
-// Loop Principal
-//==================================================
 
 void loop() {
-
-  //-------------------------
   // Leitura do potenciômetro
-  //-------------------------
 
   int valorADC = analogRead(POT_PIN);
 
   velocidadePercentual = (valorADC * 100.0) / 4095.0;
 
-  //-------------------------
-  // Indicação do sentido
-  //-------------------------
-
+  //indicação do sentido da 'esteira'
   if (sentidoHorario) {
 
     digitalWrite(LED_HORARIO, HIGH);
@@ -105,10 +83,6 @@ void loop() {
     digitalWrite(LED_ANTIHORARIO, HIGH);
 
   }
-
-  //-------------------------
-  // OLED
-  //-------------------------
 
   display.clearDisplay();
 
@@ -136,10 +110,8 @@ void loop() {
 
   display.display();
 
-  //-------------------------
-  // Serial
-  //-------------------------
 
+//ajudste do monitor serial
   Serial.print("Velocidade: ");
   Serial.print(velocidadePercentual,1);
   Serial.print("% | Sentido: ");
