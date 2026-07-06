@@ -205,7 +205,7 @@ Durante toda a execução o sistema envia informações para o Monitor Serial co
 
 <img width="537" height="483" alt="Image" src="https://github.com/HenriqueGas/Projeto-3/blob/main/Circuito%20Entrega%20Final.png" />
 
-<img width="882" height="157" alt="Image" src="https://github.com/user-attachments/assets/059e0232-1bba-41bf-a6dd-0761df7fd088" />
+<img width="882" height="157" alt="Image" src="https://github.com/HenriqueGas/Projeto-3/blob/main/Monitor%20serial%20entrega%20final.png" />
 
 ---
 
