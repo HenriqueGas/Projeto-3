@@ -68,6 +68,10 @@ Implementar o controle independente das três cores de um LED RGB utilizando o p
 
 <img width="882" height="157" alt="Image" src="https://github.com/user-attachments/assets/059e0232-1bba-41bf-a6dd-0761df7fd088" />
 
+## Link para o Wokwi
+
+https://wokwi.com/projects/468830621872159745
+
 ---
 
 # Parte 2 — Controle de Servomotor
@@ -88,6 +92,10 @@ Controlar a posição de um servomotor utilizando um potenciômetro conectado ao
 <img width="796" height="415" alt="Image" src="https://github.com/user-attachments/assets/d463fe9a-ad86-4a06-b6fc-7ee03090b534" />
 
 <img width="528" height="187" alt="Image" src="https://github.com/user-attachments/assets/6431d2c7-7925-4cb2-ac18-d6f9f85be146" />
+
+## Link para o Wokwi
+
+https://wokwi.com/projects/468830395082977281
 
 ---
 
@@ -242,6 +250,11 @@ O sentido de operação é indicado visualmente por dois LEDs controlados por PW
 ## Circuito e Simulação
 <img width="907" height="636" alt="Image" src="https://github.com/user-attachments/assets/128ed911-603c-48e1-8699-bdfa473033e6" />
 <img width="587" height="316" alt="Image" src="https://github.com/user-attachments/assets/cf00e8cd-7ca0-4938-9181-a171664bd1cc" />
+
+---
+## Link para o Wokwi
+
+https://wokwi.com/projects/468840560691348481
 
 ---
 ## Referências
