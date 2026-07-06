@@ -201,11 +201,7 @@ Durante toda a execução o sistema envia informações para o Monitor Serial co
 
 ---
 
-## Esquemático
-
-O circuito foi desenvolvido e validado no simulador Wokwi.
-
-> Inserir aqui a imagem do esquemático.
+## Circuito e Simulação
 
 <img width="537" height="483" alt="Image" src="https://github.com/HenriqueGas/Projeto-3/blob/main/Circuito%20Entrega%20Final.png" />
 
