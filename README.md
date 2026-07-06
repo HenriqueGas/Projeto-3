@@ -207,7 +207,7 @@ O circuito foi desenvolvido e validado no simulador Wokwi.
 
 > Inserir aqui a imagem do esquemático.
 
-<img width="537" height="483" alt="Image" src="https://github.com/user-attachments/assets/33f040a0-2788-43d5-b8ff-f2d4ba2a0860" />
+<img width="537" height="483" alt="Image" src="https://github.com/HenriqueGas/Projeto-3/blob/main/Circuito%20Entrega%20Final.png" />
 
 <img width="882" height="157" alt="Image" src="https://github.com/user-attachments/assets/059e0232-1bba-41bf-a6dd-0761df7fd088" />
 
